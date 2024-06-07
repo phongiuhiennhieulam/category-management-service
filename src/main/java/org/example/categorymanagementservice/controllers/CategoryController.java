@@ -56,7 +56,7 @@ public class CategoryController {
         }
     }
     @DeleteMapping("{id}")
-    public ResponseEntity<HttpStatus> updateCategory(@PathVariable int id) {
+    public ResponseEntity<HttpStatus> deleteCategory(@PathVariable int id) {
 
         try{
             logger.info("Delete Category id is "+id);
