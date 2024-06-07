@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,6 +20,6 @@ public class Category {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "status")
-    private boolean status;
+    @Column(name = "date")
+    private Date date;
 }
